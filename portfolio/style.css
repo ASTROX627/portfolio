@@ -1,0 +1,194 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav{
+  padding: 3rem 3rem;
+  background-color: rgba(39, 39, 39, 0.7);
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-menu-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.nav-menu-link:hover{
+  color: #ff652f;
+}
+
+.active{
+  color: #ff652f;
+}
+
+#home{
+  height: 120vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/project-2.jpg") center top;
+  background-size: cover;
+}
+
+#home h2{
+  color: #fff;
+}
+
+.home-intro{
+  padding-top: 50vh;
+}
+
+.name{
+  font-size: 5rem;
+  color: #fff;
+  line-height: 2;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.name span{
+  color: #ff652f;
+}
+
+.gradient{
+  height: 3px;
+  background: linear-gradient(to right, red, orange);
+}
+
+#about{
+  height: 120vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/project-1.jpg") center top;
+  background-size: cover;
+}
+
+.about-intro{
+  padding-top: 50vh;
+}
+
+.about-content{
+  font-size: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.about-content span{
+  color: #ff652f;
+  text-transform: uppercase;
+}
+
+#about h3{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#project{
+  height: 120vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/project-4.jpg") center top;
+  background-size: cover;
+}
+
+.project-intro{
+  padding-top: 50vh;
+}
+
+.project-content{
+  font-size: 3.5rem;
+  color: #fff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 2px solid #fff;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.project-content span{
+  color: #ff652f;
+  text-transform: uppercase;
+}
+
+#project h3{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#contact{
+  height: 120vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/project-5.jpg") center top;
+  background-size: cover;
+}
+
+.contact-intro{
+  padding-top: 50vh;
+}
+
+.contact-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 2px solid #fff;
+  margin: 2rem auto;
+}
+
+#contact h3{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contact-icons a{
+  color: #ff652f;
+  text-decoration: none;
+  
+}
+
+.contact-icons a i {
+  transition: all 0.5s ease;
+  margin-bottom: 1rem;
+}
+
+.contact-icons a :hover{
+  color: #fff;
+}
+
+footer{
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 

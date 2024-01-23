@@ -1,0 +1,95 @@
+@media screen and (max-width: 1000px){
+  .nav{
+    padding: 2rem 3rem;
+  }
+
+  .nav-menu-link{
+    font-size: 1.25rem;
+  }
+
+  #home, #about, #project, #contact{
+    height: 80vh;
+  }
+
+  .home-intro, .about-intro, .project-intro, .contact-intro{
+    padding-top: 30vh;
+  }
+
+  .name{
+    font-size: 4rem;
+  }
+
+  .about-content, .project-content{
+    font-size: 2.75rem;
+  }
+
+  #home h2, #about h3, #project h3, #contact h3{
+    font-size: 1.25rem;
+  }
+
+  .contact-icons a i {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #home, #about, #project, #contact{
+    height: 70vh;
+  }
+  .home-intro, .about-intro, .project-intro, .contact-intro{
+    padding-top: 25vh;
+  }
+
+  .name{
+    font-size: 3.75rem;
+  }
+
+  .about-content, .project-content{
+    font-size: 2.5rem;
+  }
+
+  .contact-icons a i {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav{
+    padding: 2rem 2rem;
+  }
+
+  .nav-menu-link{
+    font-size: 1.1rem;
+  }
+
+  #home, #about, #project, #contact{
+    height: 60vh;
+  }
+
+  .home-intro, .about-intro, .project-intro, .contact-intro{
+    padding-top: 20vh;
+  }
+
+  .name{
+    font-size: 3.25rem;
+  }
+
+  .about-content, .project-content{
+    font-size: 2.25rem;
+  }
+
+  #home h2, #about h3, #project h3, #contact h3{
+    font-size: 1.1rem;
+  }
+
+  .contact-icons a i {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 643px){
+  .about-content, .project-content{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
